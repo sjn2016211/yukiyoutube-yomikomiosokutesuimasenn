@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yomikomiosokutesuimasen
+    name: itistempest
     env: python
     region: Oregon
     plan: free
@@ -8,4 +8,4 @@ services:
     startCommand: "uvicorn --port $PORT --host 0.0.0.0 main:app"
     envVars:
     - key: PYTHON_VERSION
-      value: 3.10.9
+      value: 9.56.7
